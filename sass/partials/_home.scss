@@ -202,7 +202,7 @@ main{
 
 @media screen and (min-width:62rem) {
     body{
-        margin: 3rem 5rem 3rem 5rem;
+        margin: 2rem 8rem;
 
         header{
             display: flex;
@@ -286,12 +286,16 @@ main{
 
                 .new-title{
                     margin: 0;
+                    padding: 0 3rem 0 3rem;
                 }
 
                 div{
                     margin-top: -15%;
                     margin-left: 1rem;
                     margin-right: 1rem
+                }
+                p, h3{
+                    padding: 0 3rem 0 3rem;
                 }
             }
         }
@@ -318,7 +322,7 @@ main{
 
 @media screen and (max-width:75rem){
     body{
-        margin: 1rem;
+        /* margin: 1rem; */
 
         main{
             .news-grid{

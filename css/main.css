@@ -4,6 +4,7 @@
 body {
   font-family: "Inter", sans-serif;
   box-sizing: border-box;
+  margin: 1rem;
 }
 
 a {
@@ -250,7 +251,7 @@ main .secondary-news .secondary-section h3:hover {
 
 @media screen and (min-width: 62rem) {
   body {
-    margin: 3rem 5rem 3rem 5rem;
+    margin: 2rem 8rem;
   }
   body header {
     display: flex;
@@ -315,11 +316,15 @@ main .secondary-news .secondary-section h3:hover {
   }
   main .news-grid .secondary-news .new-title {
     margin: 0;
+    padding: 0 3rem 0 3rem;
   }
   main .news-grid .secondary-news div {
     margin-top: -15%;
     margin-left: 1rem;
     margin-right: 1rem;
+  }
+  main .news-grid .secondary-news p, main .news-grid .secondary-news h3 {
+    padding: 0 3rem 0 3rem;
   }
   .small-news-section .numbered-news {
     display: flex;
@@ -333,7 +338,7 @@ main .secondary-news .secondary-section h3:hover {
 }
 @media screen and (max-width: 75rem) {
   body {
-    margin: 1rem;
+    /* margin: 1rem; */
   }
   body main .news-grid .secondary-news {
     margin: 0;
